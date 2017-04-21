@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818494ED1EA1098D008F7477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818494EC1EA1098D008F7477 /* AppDelegate.swift */; };
+		818494F21EA1098D008F7477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818494F01EA1098D008F7477 /* Main.storyboard */; };
+		818494F51EA1098D008F7477 /* OneToFifty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 818494F31EA1098D008F7477 /* OneToFifty.xcdatamodeld */; };
+		818494F71EA1098D008F7477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818494F61EA1098D008F7477 /* Assets.xcassets */; };
+		818494FA1EA1098D008F7477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818494F81EA1098D008F7477 /* LaunchScreen.storyboard */; };
+		818495061EA8269F008F7477 /* TimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818495051EA8269F008F7477 /* TimerLabel.swift */; };
+		818495081EA827C2008F7477 /* NumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818495071EA827C2008F7477 /* NumberManager.swift */; };
+		8184950A1EA8365E008F7477 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818495091EA8365E008F7477 /* GameViewController.swift */; };
+		8184950E1EA8931D008F7477 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184950D1EA8931D008F7477 /* ScoreViewController.swift */; };
+		818495101EA8A072008F7477 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184950F1EA8A072008F7477 /* MainTabController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		818494E91EA1098D008F7477 /* OneToFifty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneToFifty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818494EC1EA1098D008F7477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		818494F11EA1098D008F7477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		818494F41EA1098D008F7477 /* OneToFifty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneToFifty.xcdatamodel; sourceTree = "<group>"; };
+		818494F61EA1098D008F7477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818494F91EA1098D008F7477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		818494FB1EA1098D008F7477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818495051EA8269F008F7477 /* TimerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerLabel.swift; path = ../TimerLabel.swift; sourceTree = "<group>"; };
+		818495071EA827C2008F7477 /* NumberManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberManager.swift; sourceTree = "<group>"; };
+		818495091EA8365E008F7477 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8184950D1EA8931D008F7477 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		8184950F1EA8A072008F7477 /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818494E61EA1098D008F7477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818494E01EA1098D008F7477 = {
+			isa = PBXGroup;
+			children = (
+				818494EB1EA1098D008F7477 /* OneToFifty */,
+				818494EA1EA1098D008F7477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818494EA1EA1098D008F7477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818494E91EA1098D008F7477 /* OneToFifty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818494EB1EA1098D008F7477 /* OneToFifty */ = {
+			isa = PBXGroup;
+			children = (
+				818494EC1EA1098D008F7477 /* AppDelegate.swift */,
+				818495091EA8365E008F7477 /* GameViewController.swift */,
+				818495051EA8269F008F7477 /* TimerLabel.swift */,
+				818495071EA827C2008F7477 /* NumberManager.swift */,
+				8184950D1EA8931D008F7477 /* ScoreViewController.swift */,
+				8184950F1EA8A072008F7477 /* MainTabController.swift */,
+				818494F01EA1098D008F7477 /* Main.storyboard */,
+				818494F61EA1098D008F7477 /* Assets.xcassets */,
+				818494F81EA1098D008F7477 /* LaunchScreen.storyboard */,
+				818494FB1EA1098D008F7477 /* Info.plist */,
+				818494F31EA1098D008F7477 /* OneToFifty.xcdatamodeld */,
+			);
+			path = OneToFifty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818494E81EA1098D008F7477 /* OneToFifty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818494FE1EA1098D008F7477 /* Build configuration list for PBXNativeTarget "OneToFifty" */;
+			buildPhases = (
+				818494E51EA1098D008F7477 /* Sources */,
+				818494E61EA1098D008F7477 /* Frameworks */,
+				818494E71EA1098D008F7477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneToFifty;
+			productName = OneToFifty;
+			productReference = 818494E91EA1098D008F7477 /* OneToFifty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818494E11EA1098D008F7477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kim Dong-woo";
+				TargetAttributes = {
+					818494E81EA1098D008F7477 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Y5QWNYRA25;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 818494E41EA1098D008F7477 /* Build configuration list for PBXProject "OneToFifty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818494E01EA1098D008F7477;
+			productRefGroup = 818494EA1EA1098D008F7477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818494E81EA1098D008F7477 /* OneToFifty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818494E71EA1098D008F7477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818494FA1EA1098D008F7477 /* LaunchScreen.storyboard in Resources */,
+				818494F71EA1098D008F7477 /* Assets.xcassets in Resources */,
+				818494F21EA1098D008F7477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818494E51EA1098D008F7477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8184950E1EA8931D008F7477 /* ScoreViewController.swift in Sources */,
+				818495061EA8269F008F7477 /* TimerLabel.swift in Sources */,
+				818495101EA8A072008F7477 /* MainTabController.swift in Sources */,
+				818494F51EA1098D008F7477 /* OneToFifty.xcdatamodeld in Sources */,
+				818495081EA827C2008F7477 /* NumberManager.swift in Sources */,
+				8184950A1EA8365E008F7477 /* GameViewController.swift in Sources */,
+				818494ED1EA1098D008F7477 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		818494F01EA1098D008F7477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818494F11EA1098D008F7477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		818494F81EA1098D008F7477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818494F91EA1098D008F7477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		818494FC1EA1098D008F7477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		818494FD1EA1098D008F7477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818494FF1EA1098D008F7477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = OneToFifty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.sks.com.OneToFifty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		818495001EA1098D008F7477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = OneToFifty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.sks.com.OneToFifty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818494E41EA1098D008F7477 /* Build configuration list for PBXProject "OneToFifty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818494FC1EA1098D008F7477 /* Debug */,
+				818494FD1EA1098D008F7477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818494FE1EA1098D008F7477 /* Build configuration list for PBXNativeTarget "OneToFifty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818494FF1EA1098D008F7477 /* Debug */,
+				818495001EA1098D008F7477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		818494F31EA1098D008F7477 /* OneToFifty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				818494F41EA1098D008F7477 /* OneToFifty.xcdatamodel */,
+			);
+			currentVersion = 818494F41EA1098D008F7477 /* OneToFifty.xcdatamodel */;
+			path = OneToFifty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 818494E11EA1098D008F7477 /* Project object */;
+}
