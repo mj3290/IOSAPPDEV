@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814967AB1DCE3F67008D3AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814967AA1DCE3F67008D3AE6 /* AppDelegate.swift */; };
+		814967AD1DCE3F67008D3AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814967AC1DCE3F67008D3AE6 /* ViewController.swift */; };
+		814967B01DCE3F67008D3AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814967AE1DCE3F67008D3AE6 /* Main.storyboard */; };
+		814967B21DCE3F67008D3AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814967B11DCE3F67008D3AE6 /* Assets.xcassets */; };
+		814967B51DCE3F67008D3AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814967B31DCE3F67008D3AE6 /* LaunchScreen.storyboard */; };
+		814967C01DCE3F67008D3AE6 /* KoDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814967BF1DCE3F67008D3AE6 /* KoDemoAppTests.swift */; };
+		814967CB1DCE3F68008D3AE6 /* KoDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814967CA1DCE3F68008D3AE6 /* KoDemoAppUITests.swift */; };
+		814967D91DCE404B008D3AE6 /* KakaoOpenSDK in Resources */ = {isa = PBXBuildFile; fileRef = 814967D81DCE404B008D3AE6 /* KakaoOpenSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		814967BC1DCE3F67008D3AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8149679F1DCE3F67008D3AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814967A61DCE3F67008D3AE6;
+			remoteInfo = KoDemoApp;
+		};
+		814967C71DCE3F68008D3AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8149679F1DCE3F67008D3AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814967A61DCE3F67008D3AE6;
+			remoteInfo = KoDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		814967A71DCE3F67008D3AE6 /* KoDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814967AA1DCE3F67008D3AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		814967AC1DCE3F67008D3AE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		814967AF1DCE3F67008D3AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		814967B11DCE3F67008D3AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814967B41DCE3F67008D3AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		814967B61DCE3F67008D3AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814967BB1DCE3F67008D3AE6 /* KoDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		814967BF1DCE3F67008D3AE6 /* KoDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoDemoAppTests.swift; sourceTree = "<group>"; };
+		814967C11DCE3F68008D3AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814967C61DCE3F68008D3AE6 /* KoDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		814967CA1DCE3F68008D3AE6 /* KoDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoDemoAppUITests.swift; sourceTree = "<group>"; };
+		814967CC1DCE3F68008D3AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814967D81DCE404B008D3AE6 /* KakaoOpenSDK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KakaoOpenSDK; path = ../KakaoOpenSDK; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814967A41DCE3F67008D3AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814967B81DCE3F67008D3AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814967C31DCE3F68008D3AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8149679E1DCE3F67008D3AE6 = {
+			isa = PBXGroup;
+			children = (
+				814967A91DCE3F67008D3AE6 /* KoDemoApp */,
+				814967BE1DCE3F67008D3AE6 /* KoDemoAppTests */,
+				814967C91DCE3F68008D3AE6 /* KoDemoAppUITests */,
+				814967A81DCE3F67008D3AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		814967A81DCE3F67008D3AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814967A71DCE3F67008D3AE6 /* KoDemoApp.app */,
+				814967BB1DCE3F67008D3AE6 /* KoDemoAppTests.xctest */,
+				814967C61DCE3F68008D3AE6 /* KoDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814967A91DCE3F67008D3AE6 /* KoDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				814967D81DCE404B008D3AE6 /* KakaoOpenSDK */,
+				814967AA1DCE3F67008D3AE6 /* AppDelegate.swift */,
+				814967AC1DCE3F67008D3AE6 /* ViewController.swift */,
+				814967AE1DCE3F67008D3AE6 /* Main.storyboard */,
+				814967B11DCE3F67008D3AE6 /* Assets.xcassets */,
+				814967B31DCE3F67008D3AE6 /* LaunchScreen.storyboard */,
+				814967B61DCE3F67008D3AE6 /* Info.plist */,
+			);
+			path = KoDemoApp;
+			sourceTree = "<group>";
+		};
+		814967BE1DCE3F67008D3AE6 /* KoDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				814967BF1DCE3F67008D3AE6 /* KoDemoAppTests.swift */,
+				814967C11DCE3F68008D3AE6 /* Info.plist */,
+			);
+			path = KoDemoAppTests;
+			sourceTree = "<group>";
+		};
+		814967C91DCE3F68008D3AE6 /* KoDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				814967CA1DCE3F68008D3AE6 /* KoDemoAppUITests.swift */,
+				814967CC1DCE3F68008D3AE6 /* Info.plist */,
+			);
+			path = KoDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814967A61DCE3F67008D3AE6 /* KoDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814967CF1DCE3F68008D3AE6 /* Build configuration list for PBXNativeTarget "KoDemoApp" */;
+			buildPhases = (
+				814967A31DCE3F67008D3AE6 /* Sources */,
+				814967A41DCE3F67008D3AE6 /* Frameworks */,
+				814967A51DCE3F67008D3AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoDemoApp;
+			productName = KoDemoApp;
+			productReference = 814967A71DCE3F67008D3AE6 /* KoDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		814967BA1DCE3F67008D3AE6 /* KoDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814967D21DCE3F68008D3AE6 /* Build configuration list for PBXNativeTarget "KoDemoAppTests" */;
+			buildPhases = (
+				814967B71DCE3F67008D3AE6 /* Sources */,
+				814967B81DCE3F67008D3AE6 /* Frameworks */,
+				814967B91DCE3F67008D3AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814967BD1DCE3F67008D3AE6 /* PBXTargetDependency */,
+			);
+			name = KoDemoAppTests;
+			productName = KoDemoAppTests;
+			productReference = 814967BB1DCE3F67008D3AE6 /* KoDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		814967C51DCE3F68008D3AE6 /* KoDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814967D51DCE3F68008D3AE6 /* Build configuration list for PBXNativeTarget "KoDemoAppUITests" */;
+			buildPhases = (
+				814967C21DCE3F68008D3AE6 /* Sources */,
+				814967C31DCE3F68008D3AE6 /* Frameworks */,
+				814967C41DCE3F68008D3AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814967C81DCE3F68008D3AE6 /* PBXTargetDependency */,
+			);
+			name = KoDemoAppUITests;
+			productName = KoDemoAppUITests;
+			productReference = 814967C61DCE3F68008D3AE6 /* KoDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8149679F1DCE3F67008D3AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kim Dong-woo";
+				TargetAttributes = {
+					814967A61DCE3F67008D3AE6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y5QWNYRA25;
+						ProvisioningStyle = Automatic;
+					};
+					814967BA1DCE3F67008D3AE6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y5QWNYRA25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 814967A61DCE3F67008D3AE6;
+					};
+					814967C51DCE3F68008D3AE6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y5QWNYRA25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 814967A61DCE3F67008D3AE6;
+					};
+				};
+			};
+			buildConfigurationList = 814967A21DCE3F67008D3AE6 /* Build configuration list for PBXProject "KoDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8149679E1DCE3F67008D3AE6;
+			productRefGroup = 814967A81DCE3F67008D3AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814967A61DCE3F67008D3AE6 /* KoDemoApp */,
+				814967BA1DCE3F67008D3AE6 /* KoDemoAppTests */,
+				814967C51DCE3F68008D3AE6 /* KoDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814967A51DCE3F67008D3AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814967B51DCE3F67008D3AE6 /* LaunchScreen.storyboard in Resources */,
+				814967B21DCE3F67008D3AE6 /* Assets.xcassets in Resources */,
+				814967B01DCE3F67008D3AE6 /* Main.storyboard in Resources */,
+				814967D91DCE404B008D3AE6 /* KakaoOpenSDK in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814967B91DCE3F67008D3AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814967C41DCE3F68008D3AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814967A31DCE3F67008D3AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814967AD1DCE3F67008D3AE6 /* ViewController.swift in Sources */,
+				814967AB1DCE3F67008D3AE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814967B71DCE3F67008D3AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814967C01DCE3F67008D3AE6 /* KoDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814967C21DCE3F68008D3AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814967CB1DCE3F68008D3AE6 /* KoDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		814967BD1DCE3F67008D3AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814967A61DCE3F67008D3AE6 /* KoDemoApp */;
+			targetProxy = 814967BC1DCE3F67008D3AE6 /* PBXContainerItemProxy */;
+		};
+		814967C81DCE3F68008D3AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814967A61DCE3F67008D3AE6 /* KoDemoApp */;
+			targetProxy = 814967C71DCE3F68008D3AE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		814967AE1DCE3F67008D3AE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814967AF1DCE3F67008D3AE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		814967B31DCE3F67008D3AE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814967B41DCE3F67008D3AE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		814967CD1DCE3F68008D3AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		814967CE1DCE3F68008D3AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		814967D01DCE3F68008D3AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = KoDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.KoDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		814967D11DCE3F68008D3AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = KoDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.KoDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		814967D31DCE3F68008D3AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = KoDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.KoDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoDemoApp.app/KoDemoApp";
+			};
+			name = Debug;
+		};
+		814967D41DCE3F68008D3AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = KoDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.KoDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoDemoApp.app/KoDemoApp";
+			};
+			name = Release;
+		};
+		814967D61DCE3F68008D3AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = KoDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.KoDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KoDemoApp;
+			};
+			name = Debug;
+		};
+		814967D71DCE3F68008D3AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y5QWNYRA25;
+				INFOPLIST_FILE = KoDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skcc.KoDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KoDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814967A21DCE3F67008D3AE6 /* Build configuration list for PBXProject "KoDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814967CD1DCE3F68008D3AE6 /* Debug */,
+				814967CE1DCE3F68008D3AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814967CF1DCE3F68008D3AE6 /* Build configuration list for PBXNativeTarget "KoDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814967D01DCE3F68008D3AE6 /* Debug */,
+				814967D11DCE3F68008D3AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		814967D21DCE3F68008D3AE6 /* Build configuration list for PBXNativeTarget "KoDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814967D31DCE3F68008D3AE6 /* Debug */,
+				814967D41DCE3F68008D3AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		814967D51DCE3F68008D3AE6 /* Build configuration list for PBXNativeTarget "KoDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814967D61DCE3F68008D3AE6 /* Debug */,
+				814967D71DCE3F68008D3AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8149679F1DCE3F67008D3AE6 /* Project object */;
+}

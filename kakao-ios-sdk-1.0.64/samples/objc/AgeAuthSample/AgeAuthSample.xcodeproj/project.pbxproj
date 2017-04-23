@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AD561041C058E0700274029 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95D91AF1B9E81000003EE0F /* KakaoOpenSDK.framework */; };
+		E95D917F1B9E6BE00003EE0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D917E1B9E6BE00003EE0F /* main.m */; };
+		E95D91821B9E6BE00003EE0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D91811B9E6BE00003EE0F /* AppDelegate.m */; };
+		E95D91851B9E6BE00003EE0F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D91841B9E6BE00003EE0F /* LoginViewController.m */; };
+		E95D91881B9E6BE00003EE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95D91861B9E6BE00003EE0F /* Main.storyboard */; };
+		E95D918A1B9E6BE00003EE0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95D91891B9E6BE00003EE0F /* Images.xcassets */; };
+		E95D918D1B9E6BE00003EE0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95D918B1B9E6BE00003EE0F /* LaunchScreen.xib */; };
+		E95D91991B9E6BE00003EE0F /* AgeAuthSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D91981B9E6BE00003EE0F /* AgeAuthSampleTests.m */; };
+		E95D91AD1B9E7FF60003EE0F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D91AC1B9E7FF60003EE0F /* MainViewController.m */; };
+		E95D91B51B9E83010003EE0F /* UIAlertView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D91B21B9E83010003EE0F /* UIAlertView+Addition.m */; };
+		E95D91B61B9E83010003EE0F /* UIButton+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D91B41B9E83010003EE0F /* UIButton+Addition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E95D91931B9E6BE00003EE0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95D91711B9E6BE00003EE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95D91781B9E6BE00003EE0F;
+			remoteInfo = AgeAuthSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E95D91791B9E6BE00003EE0F /* AgeAuthSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeAuthSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95D917D1B9E6BE00003EE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95D917E1B9E6BE00003EE0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95D91801B9E6BE00003EE0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E95D91811B9E6BE00003EE0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E95D91831B9E6BE00003EE0F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E95D91841B9E6BE00003EE0F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E95D91871B9E6BE00003EE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95D91891B9E6BE00003EE0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E95D918C1B9E6BE00003EE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E95D91921B9E6BE00003EE0F /* AgeAuthSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeAuthSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95D91971B9E6BE00003EE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95D91981B9E6BE00003EE0F /* AgeAuthSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeAuthSampleTests.m; sourceTree = "<group>"; };
+		E95D91AB1B9E7FF60003EE0F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E95D91AC1B9E7FF60003EE0F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E95D91AF1B9E81000003EE0F /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = ../../../KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		E95D91B11B9E83010003EE0F /* UIAlertView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Addition.h"; sourceTree = "<group>"; };
+		E95D91B21B9E83010003EE0F /* UIAlertView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Addition.m"; sourceTree = "<group>"; };
+		E95D91B31B9E83010003EE0F /* UIButton+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addition.h"; sourceTree = "<group>"; };
+		E95D91B41B9E83010003EE0F /* UIButton+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95D91761B9E6BE00003EE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD561041C058E0700274029 /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95D918F1B9E6BE00003EE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E95D91701B9E6BE00003EE0F = {
+			isa = PBXGroup;
+			children = (
+				E95D917B1B9E6BE00003EE0F /* AgeAuthSample */,
+				E95D91951B9E6BE00003EE0F /* AgeAuthSampleTests */,
+				E95D91AE1B9E80E50003EE0F /* Frameworks */,
+				E95D917A1B9E6BE00003EE0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E95D917A1B9E6BE00003EE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95D91791B9E6BE00003EE0F /* AgeAuthSample.app */,
+				E95D91921B9E6BE00003EE0F /* AgeAuthSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95D917B1B9E6BE00003EE0F /* AgeAuthSample */ = {
+			isa = PBXGroup;
+			children = (
+				E95D91801B9E6BE00003EE0F /* AppDelegate.h */,
+				E95D91811B9E6BE00003EE0F /* AppDelegate.m */,
+				E95D91831B9E6BE00003EE0F /* LoginViewController.h */,
+				E95D91841B9E6BE00003EE0F /* LoginViewController.m */,
+				E95D91AB1B9E7FF60003EE0F /* MainViewController.h */,
+				E95D91AC1B9E7FF60003EE0F /* MainViewController.m */,
+				E95D91B11B9E83010003EE0F /* UIAlertView+Addition.h */,
+				E95D91B21B9E83010003EE0F /* UIAlertView+Addition.m */,
+				E95D91B31B9E83010003EE0F /* UIButton+Addition.h */,
+				E95D91B41B9E83010003EE0F /* UIButton+Addition.m */,
+				E95D91861B9E6BE00003EE0F /* Main.storyboard */,
+				E95D91891B9E6BE00003EE0F /* Images.xcassets */,
+				E95D918B1B9E6BE00003EE0F /* LaunchScreen.xib */,
+				E95D917C1B9E6BE00003EE0F /* Supporting Files */,
+			);
+			path = AgeAuthSample;
+			sourceTree = "<group>";
+		};
+		E95D917C1B9E6BE00003EE0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95D917D1B9E6BE00003EE0F /* Info.plist */,
+				E95D917E1B9E6BE00003EE0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E95D91951B9E6BE00003EE0F /* AgeAuthSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E95D91981B9E6BE00003EE0F /* AgeAuthSampleTests.m */,
+				E95D91961B9E6BE00003EE0F /* Supporting Files */,
+			);
+			path = AgeAuthSampleTests;
+			sourceTree = "<group>";
+		};
+		E95D91961B9E6BE00003EE0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95D91971B9E6BE00003EE0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E95D91AE1B9E80E50003EE0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E95D91AF1B9E81000003EE0F /* KakaoOpenSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95D91781B9E6BE00003EE0F /* AgeAuthSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95D919C1B9E6BE00003EE0F /* Build configuration list for PBXNativeTarget "AgeAuthSample" */;
+			buildPhases = (
+				E95D91751B9E6BE00003EE0F /* Sources */,
+				E95D91761B9E6BE00003EE0F /* Frameworks */,
+				E95D91771B9E6BE00003EE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeAuthSample;
+			productName = AgeAuthSample;
+			productReference = E95D91791B9E6BE00003EE0F /* AgeAuthSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E95D91911B9E6BE00003EE0F /* AgeAuthSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95D919F1B9E6BE00003EE0F /* Build configuration list for PBXNativeTarget "AgeAuthSampleTests" */;
+			buildPhases = (
+				E95D918E1B9E6BE00003EE0F /* Sources */,
+				E95D918F1B9E6BE00003EE0F /* Frameworks */,
+				E95D91901B9E6BE00003EE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95D91941B9E6BE00003EE0F /* PBXTargetDependency */,
+			);
+			name = AgeAuthSampleTests;
+			productName = AgeAuthSampleTests;
+			productReference = E95D91921B9E6BE00003EE0F /* AgeAuthSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95D91711B9E6BE00003EE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Kakao;
+				TargetAttributes = {
+					E95D91781B9E6BE00003EE0F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E95D91911B9E6BE00003EE0F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E95D91781B9E6BE00003EE0F;
+					};
+				};
+			};
+			buildConfigurationList = E95D91741B9E6BE00003EE0F /* Build configuration list for PBXProject "AgeAuthSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95D91701B9E6BE00003EE0F;
+			productRefGroup = E95D917A1B9E6BE00003EE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95D91781B9E6BE00003EE0F /* AgeAuthSample */,
+				E95D91911B9E6BE00003EE0F /* AgeAuthSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95D91771B9E6BE00003EE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95D91881B9E6BE00003EE0F /* Main.storyboard in Resources */,
+				E95D918D1B9E6BE00003EE0F /* LaunchScreen.xib in Resources */,
+				E95D918A1B9E6BE00003EE0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95D91901B9E6BE00003EE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95D91751B9E6BE00003EE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95D91851B9E6BE00003EE0F /* LoginViewController.m in Sources */,
+				E95D91821B9E6BE00003EE0F /* AppDelegate.m in Sources */,
+				E95D917F1B9E6BE00003EE0F /* main.m in Sources */,
+				E95D91AD1B9E7FF60003EE0F /* MainViewController.m in Sources */,
+				E95D91B51B9E83010003EE0F /* UIAlertView+Addition.m in Sources */,
+				E95D91B61B9E83010003EE0F /* UIButton+Addition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95D918E1B9E6BE00003EE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95D91991B9E6BE00003EE0F /* AgeAuthSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E95D91941B9E6BE00003EE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95D91781B9E6BE00003EE0F /* AgeAuthSample */;
+			targetProxy = E95D91931B9E6BE00003EE0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E95D91861B9E6BE00003EE0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95D91871B9E6BE00003EE0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E95D918B1B9E6BE00003EE0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95D918C1B9E6BE00003EE0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95D919A1B9E6BE00003EE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E95D919B1B9E6BE00003EE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95D919D1B9E6BE00003EE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../,
+				);
+				INFOPLIST_FILE = AgeAuthSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.sdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E95D919E1B9E6BE00003EE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../,
+				);
+				INFOPLIST_FILE = AgeAuthSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.sdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E95D91A01B9E6BE00003EE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeAuthSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.sdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeAuthSample.app/AgeAuthSample";
+			};
+			name = Debug;
+		};
+		E95D91A11B9E6BE00003EE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeAuthSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.sdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeAuthSample.app/AgeAuthSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95D91741B9E6BE00003EE0F /* Build configuration list for PBXProject "AgeAuthSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95D919A1B9E6BE00003EE0F /* Debug */,
+				E95D919B1B9E6BE00003EE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95D919C1B9E6BE00003EE0F /* Build configuration list for PBXNativeTarget "AgeAuthSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95D919D1B9E6BE00003EE0F /* Debug */,
+				E95D919E1B9E6BE00003EE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95D919F1B9E6BE00003EE0F /* Build configuration list for PBXNativeTarget "AgeAuthSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95D91A01B9E6BE00003EE0F /* Debug */,
+				E95D91A11B9E6BE00003EE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E95D91711B9E6BE00003EE0F /* Project object */;
+}

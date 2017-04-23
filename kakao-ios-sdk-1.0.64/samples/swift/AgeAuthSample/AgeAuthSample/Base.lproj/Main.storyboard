@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="V80-3g-zRK">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Login-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="login" id="BYZ-38-t0r" customClass="LoginViewController" customModule="AgeAuthSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="login" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXq-rc-hcd">
+                                <rect key="frame" x="215" y="200" width="170" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ZSK-y5-O9e">
+                                        <rect key="frame" x="40" y="27" width="90" height="90"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksr-fg-5cW">
+                                        <rect key="frame" x="0.0" y="142" width="170" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="170" id="Wol-c1-zfb"/>
+                                            <constraint firstAttribute="height" constant="50" id="zuF-Bs-Z1T"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bUq-EV-Ni9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ksr-fg-5cW" firstAttribute="top" secondItem="ZSK-y5-O9e" secondAttribute="bottom" constant="25" id="3sx-g7-J8J"/>
+                                    <constraint firstAttribute="width" constant="170" id="CQh-nP-QMK"/>
+                                    <constraint firstItem="ksr-fg-5cW" firstAttribute="leading" secondItem="aXq-rc-hcd" secondAttribute="leading" id="fFq-ia-pIr"/>
+                                    <constraint firstAttribute="height" constant="200" id="gs2-Rg-LeG"/>
+                                    <constraint firstItem="ZSK-y5-O9e" firstAttribute="top" secondItem="aXq-rc-hcd" secondAttribute="top" constant="27" id="l7J-O4-4od"/>
+                                    <constraint firstItem="ZSK-y5-O9e" firstAttribute="leading" secondItem="aXq-rc-hcd" secondAttribute="leading" constant="40" id="rzO-Np-ppD"/>
+                                    <constraint firstItem="ksr-fg-5cW" firstAttribute="centerX" secondItem="ZSK-y5-O9e" secondAttribute="centerX" id="sE0-X7-vDa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aXq-rc-hcd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pkv-1q-sP5"/>
+                            <constraint firstItem="aXq-rc-hcd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="drZ-Eu-Qqr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Login" id="K1U-QI-8TH"/>
+                    <connections>
+                        <outlet property="loginButton" destination="ksr-fg-5cW" id="why-ni-e7b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="1013"/>
+        </scene>
+        <!--Age Auth-->
+        <scene sceneID="COL-ai-xz5">
+            <objects>
+                <viewController storyboardIdentifier="main" id="mAZ-oU-5XL" customClass="MainViewController" customModule="AgeAuthSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tRp-tC-ics"/>
+                        <viewControllerLayoutGuide type="bottom" id="diZ-5K-daP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="main" id="WFT-sc-GKj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eY1-O5-tUD">
+                                <rect key="frame" x="220" y="110" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Wv-pZ-eAy"/>
+                                    <constraint firstAttribute="width" constant="160" id="oLv-PB-ATl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="연령인증 확인"/>
+                                <connections>
+                                    <action selector="ageAuthClicked:" destination="mAZ-oU-5XL" eventType="touchUpInside" id="nqC-0O-aeI"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dLv-aX-LUM">
+                                <rect key="frame" x="20" y="143" width="560" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="yhw-xl-9gf"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="mAZ-oU-5XL" id="qdc-cc-I25"/>
+                                    <outlet property="delegate" destination="mAZ-oU-5XL" id="QIl-Ex-KAp"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dLv-aX-LUM" secondAttribute="trailing" constant="20" id="1Ai-g1-QGo"/>
+                            <constraint firstItem="dLv-aX-LUM" firstAttribute="top" secondItem="eY1-O5-tUD" secondAttribute="bottom" constant="3" id="QUh-82-2qL"/>
+                            <constraint firstItem="dLv-aX-LUM" firstAttribute="leading" secondItem="WFT-sc-GKj" secondAttribute="leading" constant="20" id="UIN-v4-eV8"/>
+                            <constraint firstItem="eY1-O5-tUD" firstAttribute="centerX" secondItem="WFT-sc-GKj" secondAttribute="centerX" id="ZcS-4Y-A1w"/>
+                            <constraint firstItem="eY1-O5-tUD" firstAttribute="top" secondItem="tRp-tC-ics" secondAttribute="bottom" constant="46" id="ve0-gg-1Id"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Age Auth" id="jtD-y2-5NE">
+                        <barButtonItem key="leftBarButtonItem" title="Unlink" id="lop-F4-jbG">
+                            <connections>
+                                <action selector="unlinkClicked:" destination="mAZ-oU-5XL" id="c8P-pT-caQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="buc-TC-Vv7">
+                            <connections>
+                                <action selector="logout:" destination="mAZ-oU-5XL" id="8A6-YP-Wnr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="authPolicyPicker" destination="dLv-aX-LUM" id="7FQ-ik-LwT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USb-5e-7Jf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="1742"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xVN-01-VzP">
+            <objects>
+                <navigationController storyboardIdentifier="navigator" automaticallyAdjustsScrollViewInsets="NO" id="V80-3g-zRK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yed-aj-35I">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mAZ-oU-5XL" kind="show" identifier="main" id="uGB-Gf-1NR"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="login" id="oCU-WT-0z7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TIl-dm-Djz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="1397"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LoginIcon" width="90" height="90"/>
+    </resources>
+</document>

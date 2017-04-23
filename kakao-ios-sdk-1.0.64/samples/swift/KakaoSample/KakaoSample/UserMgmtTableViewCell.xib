@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="348" id="KGk-i7-Jjw" customClass="UserMgmtTableViewCell" customModule="KakaoSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="348"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vxB-qX-fRI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="118"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="118" id="dSd-1s-QJ8"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="이름을 입력하세요." clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PXb-to-vIl" customClass="InsetableTextField" customModule="KakaoSample" customModuleProvider="target">
+                        <rect key="frame" x="15" y="138" width="290" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Lt2-a9-ykI"/>
+                        </constraints>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="나이를 입력하세요." clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="24Q-RV-err" customClass="InsetableTextField" customModule="KakaoSample" customModuleProvider="target">
+                        <rect key="frame" x="15" y="238" width="290" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Psd-0P-xpA"/>
+                        </constraints>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="성별을 입력하세요. (남성/여성)" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="phn-YG-Rlj" customClass="InsetableTextField" customModule="KakaoSample" customModuleProvider="target">
+                        <rect key="frame" x="15" y="288" width="290" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="jln-TU-MPo"/>
+                        </constraints>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="별명을 입력하세요." clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v5g-bn-GKD" customClass="InsetableTextField" customModule="KakaoSample" customModuleProvider="target">
+                        <rect key="frame" x="15" y="188" width="290" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="SFk-9X-p3w"/>
+                        </constraints>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5ZX-OK-Hp5">
+                        <rect key="frame" x="122" y="21" width="76" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="K3u-iG-pT1"/>
+                            <constraint firstAttribute="height" constant="76" id="Yvi-rt-8vw"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="24Q-RV-err" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="30b-L1-EGw"/>
+                    <constraint firstAttribute="trailing" secondItem="v5g-bn-GKD" secondAttribute="trailing" constant="15" id="7Q2-Ao-Fqc"/>
+                    <constraint firstItem="PXb-to-vIl" firstAttribute="top" secondItem="vxB-qX-fRI" secondAttribute="bottom" constant="20" id="8Z6-xu-XHU"/>
+                    <constraint firstAttribute="trailing" secondItem="vxB-qX-fRI" secondAttribute="trailing" id="9db-nA-ZXU"/>
+                    <constraint firstItem="phn-YG-Rlj" firstAttribute="top" secondItem="24Q-RV-err" secondAttribute="bottom" constant="10" id="9vv-C3-D0J"/>
+                    <constraint firstItem="v5g-bn-GKD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Au4-ce-2in"/>
+                    <constraint firstAttribute="trailing" secondItem="phn-YG-Rlj" secondAttribute="trailing" constant="15" id="CMY-2N-Rfa"/>
+                    <constraint firstItem="5ZX-OK-Hp5" firstAttribute="centerY" secondItem="vxB-qX-fRI" secondAttribute="centerY" id="D0e-tZ-SdP"/>
+                    <constraint firstAttribute="trailing" secondItem="PXb-to-vIl" secondAttribute="trailing" constant="15" id="FXC-Nh-Eqn"/>
+                    <constraint firstItem="vxB-qX-fRI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NLl-p0-Ds1"/>
+                    <constraint firstItem="phn-YG-Rlj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Omi-oP-BnK"/>
+                    <constraint firstAttribute="centerX" secondItem="5ZX-OK-Hp5" secondAttribute="centerX" id="PzV-gL-1lI"/>
+                    <constraint firstItem="24Q-RV-err" firstAttribute="top" secondItem="v5g-bn-GKD" secondAttribute="bottom" constant="10" id="UAL-y7-GwX"/>
+                    <constraint firstAttribute="trailing" secondItem="24Q-RV-err" secondAttribute="trailing" constant="15" id="bx5-ax-TOP"/>
+                    <constraint firstItem="PXb-to-vIl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="eqf-RX-UhQ"/>
+                    <constraint firstItem="v5g-bn-GKD" firstAttribute="top" secondItem="PXb-to-vIl" secondAttribute="bottom" constant="10" id="gSV-5G-gnY"/>
+                    <constraint firstItem="vxB-qX-fRI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="y5K-Q8-HWj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="age" destination="24Q-RV-err" id="IF5-DV-oIy"/>
+                <outlet property="gender" destination="phn-YG-Rlj" id="viV-h2-g2L"/>
+                <outlet property="name" destination="PXb-to-vIl" id="gZV-qb-Awv"/>
+                <outlet property="nickName" destination="v5g-bn-GKD" id="WsG-fh-ZsK"/>
+                <outlet property="thumbnail" destination="5ZX-OK-Hp5" id="Bfl-Jh-do1"/>
+            </connections>
+            <point key="canvasLocation" x="568" y="402"/>
+        </tableViewCell>
+    </objects>
+</document>
