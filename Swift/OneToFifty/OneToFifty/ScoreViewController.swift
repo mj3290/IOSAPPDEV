@@ -37,10 +37,8 @@ class ScoreViewController: UIViewController, UITableViewDataSource, UITableViewD
         dateFormatter.timeStyle = .none
         dateFormatter.locale = Locale(identifier: "ko_KR")
         
-        if let d:Date = score.date as! Date {
-            if d != nil {
-                cell.textLabel?.text = dateFormatter.string(from: d)
-            }
+        if let date:Date = score.date as? Date {
+            cell.textLabel?.text = dateFormatter.string(from: date)
         }
  
         cell.detailTextLabel?.text = "\(score.score!)"

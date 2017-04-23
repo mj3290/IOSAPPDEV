@@ -108,61 +108,58 @@ class GameViewController: UIViewController {
     {
         let btnText = sender.titleLabel?.text
         if let str = btnText {
-            if str != nil {
-                let btnNum = Int(str)
-                if btnNum == 50 {
-                    timerClock.stop(self)
-                    
-                    offTimer()
-                    offBtnTimer()
-                    
-                    sender.isHidden = true
-                    
-                    let localAlert = UIAlertController(title : "결과", message: "당신의 기록은 : " + "\(String(timerClock.text!) ?? "")", preferredStyle: .alert)
-                    let localAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                    localAlert.addAction(localAction)
-                    
-                    self.present(localAlert, animated: true, completion: nil)
-                    
-                    addScore(score:timerClock.text!)
-                    
-                    btnStart.isEnabled = true
-                    isStarted = 0
-                    btnStart.titleLabel?.text = "START"
-                    
-                    for btn in arrayButton {
-                        btn.titleLabel?.text = ""
-                        btn.isHidden = false
-                    }
-                    return
-                }
+            let btnNum = Int(str)
+            if btnNum == 50 {
+                timerClock.stop(self)
                 
                 offTimer()
                 offBtnTimer()
                 
-                sender.backgroundColor = UIColor.darkGray
+                sender.isHidden = true
                 
-                let retVal = gameManagerClass.UpdateNumber(clickNumber: btnNum!)
-                if retVal == nomoreNumber {
-                    nextNumber.text = String(gameManagerClass.nextNumber)
-                    sender.isHidden = true
-                }
-                else
-                {
-                    if retVal != isNotCorrect {
-                        nextNumber.text = String(gameManagerClass.nextNumber)
-                        nextNumNotifier[retVal] = sender
-                        sender.setTitle(String(retVal), for: .normal)
-                    }
-                    else {
-                        Viberate() // 잘못 눌렀을 때 진동
-                    }
-                }
+                let localAlert = UIAlertController(title : "결과", message: "당신의 기록은 : " + "\(String(timerClock.text!) ?? "")", preferredStyle: .alert)
+                let localAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                localAlert.addAction(localAction)
                 
-                onTimer()
+                self.present(localAlert, animated: true, completion: nil)
+                
+                addScore(score:timerClock.text!)
+                
+                btnStart.isEnabled = true
+                isStarted = 0
+                btnStart.titleLabel?.text = "START"
+                
+                for btn in arrayButton {
+                    btn.titleLabel?.text = ""
+                    btn.isHidden = false
+                }
+                return
             }
+            
+            offTimer()
+            offBtnTimer()
+            
+            sender.backgroundColor = UIColor.darkGray
+            
+            let retVal = gameManagerClass.UpdateNumber(clickNumber: btnNum!)
+            if retVal == nomoreNumber {
+                nextNumber.text = String(gameManagerClass.nextNumber)
+                sender.isHidden = true
+            }
+            else
+            {
+                if retVal != isNotCorrect {
+                    nextNumber.text = String(gameManagerClass.nextNumber)
+                    nextNumNotifier[retVal] = sender
+                    sender.setTitle(String(retVal), for: .normal)
+                }
+                else {
+                    Viberate() // 잘못 눌렀을 때 진동
+                }
+            }
+            
+            onTimer()
         }
-        
     }
     
     // 3초동안 못 찾으면 깜빡임 용도
@@ -174,17 +171,16 @@ class GameViewController: UIViewController {
     // Button Flicker
     func btnTimerAction() {
         let nextNum = Int(nextNumber.text!)
-        let btn = nextNumNotifier[nextNum!]
+        let btnNum = nextNumNotifier[nextNum!]
         
-        if let b:UIButton = btn {
-            if b != nil {
-                toggleVal = 1 - toggleVal
-                if toggleVal == 1 {
-                    b.backgroundColor = UIColor.red
-                }
-                else {
-                    b.backgroundColor = UIColor.darkGray
-                }
+        if let btn:UIButton = btnNum {
+           
+            toggleVal = 1 - toggleVal
+            if toggleVal == 1 {
+                btn.backgroundColor = UIColor.red
+            }
+            else {
+                btn.backgroundColor = UIColor.darkGray
             }
         }
     }
